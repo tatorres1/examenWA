@@ -1,0 +1,17 @@
+{{#if this.name}}
+	<div class="menu-platos-item">
+		<div class="img-menu">
+			<img
+				class="img-responsive img-redondeado"
+				src="images/{{this.name}}.jpg"
+				alt={{this.name}}
+			/>
+		</div>
+		<div class="desc-menu">
+			<h4>{{this.name}}</h4>
+			<p class="precio-plato">${{this.price}}</p>
+			<p class="desc-plato">{{this.description}}</p>
+			<a href="#" class="btn btn-principal">Ordenar</a>
+		</div>
+	</div>
+{{/if}}

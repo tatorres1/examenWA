@@ -1,0 +1,16 @@
+{
+  "name": "examenthalia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Thalia T",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15"
+  }
+}

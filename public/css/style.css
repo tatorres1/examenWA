@@ -1,0 +1,165 @@
+/* PARA TODOS LOS ELEMENTOS */
+
+.img-responsive {
+  width: 100%;
+}
+.img-redondeado {
+  border-radius: 15px;
+}
+h2 {
+  color: #2f3542;
+  font-size: 2rem;
+  padding-bottom: 2%;
+}
+.contenedor-flotante {
+  position: relative;
+}
+.texto-flotante {
+  position: absolute;
+  bottom: 20px;
+  left: 35%;
+}
+.texto-blanco {
+  color: rgb(0, 0, 0);
+}
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.texto-derecha {
+  text-align: right;
+}
+.texto-centro {
+  text-align: center;
+}
+.limpiar {
+  clear: both;
+  float: none;
+}
+a {
+  color: #7d39b4;
+  text-decoration: none;
+}
+a:hover {
+  color: #7d39b4;
+}
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border: radius 5px;
+}
+.btn-principal {
+  background-color: #7d39b4;
+  color: white;
+  cursor: pointer;
+}
+.btn-principal:hover {
+  background-color: #7d39b4;
+}
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  width: 10%;
+  float: left;
+}
+
+.menu {
+  line-height: 90px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+.categorias {
+  padding: 4% 0;
+  background-color: rgb(214, 201, 230);
+}
+.caja-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+.menu-platos {
+  background-color: #9f9cc9;
+  padding: 4% 0;
+}
+
+.menu-platos-item {
+  background-color: white;
+  border: 1px solid black;
+  width: 45%;
+  padding: 1%;
+  margin: 2%;
+  float: left;
+  border-radius: 15px;
+}
+
+.img-menu {
+  width: 20%;
+  float: left;
+}
+.desc-menu {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.precio-plato {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.desc-plato {
+  font-size: 0.8rem;
+  color: #747d8c;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 0.8rem;
+  }
+  .logo {
+    width: 20%;
+    float: none;
+    margin: 0 auto;
+  }
+  .menu ul {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .busqueda input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 2%;
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+    padding: 2%;
+    width: 90%;
+  }
+  .caja-3 {
+    width: 85%;
+    margin: 4% auto;
+  }
+  .img-menu {
+    width: 100%;
+  }
+  .text-responsive {
+    font-size: 1rem;
+  }
+}
